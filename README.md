@@ -81,9 +81,9 @@ Our deployment strategy is designed for speed, reliability, and zero-cost hostin
 
 ```mermaid
 graph TD
-    A[User] -->|HTTPS| B[Vercel (Next.js Frontend)]
-    B -->|API Request| C[Railway (FastAPI Backend)]
-    C -->|LLM API| D[LLM Provider (OpenAI)]
+    A(User) --> B(Vercel - Next.js Frontend)
+    B --> C(Railway - FastAPI Backend)
+    C --> D(LLM Provider - OpenAI)
 ```
 
 ---
