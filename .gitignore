@@ -4,7 +4,8 @@
 
 # Python
 /backend/venv
-/backend/__pycache__
-
+**/__pycache__
+/backend/.p*
 # Env files
 **/.env 
+**/package-lock.json
